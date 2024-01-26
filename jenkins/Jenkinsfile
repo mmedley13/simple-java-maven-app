@@ -22,7 +22,8 @@ pipeline {
             }
         }
         stage('Complete') {
-            echo 'Job Completed - yepee....'
+            steps {
+                echo 'Job Completed - yepee....'
     }    
     }
 }
